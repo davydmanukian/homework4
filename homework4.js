@@ -28,8 +28,10 @@ function isPalindrome (string){
   }
   return (string === newString)?'is Palindrome':'is not palindrome'
 }
-console.log (isPalindrome("madam"))
+isPalindrome("madam")
+
 //else
+
 function isPalindrome(string) {
   for(let i = 0; i <= string.length / 2; i++) {
     if(string[i] !== string[string.length - 1 - i]){
@@ -38,7 +40,7 @@ function isPalindrome(string) {
   }
   return "is palindrome"
 }
-console.log(isPalindrome("madam"))
+isPalindrome("madam")
 
 // 4) max in array 
 function maxInArray(array) {
@@ -52,7 +54,7 @@ function maxInArray(array) {
     }
   return result
 }
-console.log(maxInArray([1, 10, 2, -120, 48, 58, 38]) )
+maxInArray([1, 10, 2, -120, 48, 58, 38]) 
 
 
 // 5) product between two neighbours
@@ -63,7 +65,7 @@ function newArray(array) {
   }
   return newArray
 }
-console.log(newArray([1, 1, 4, 32, 6]))
+newArray([1, 1, 4, 32, 6])
 
 
 // 6) changed symbol
@@ -78,7 +80,7 @@ function changeSymbol(text, oldSymbol, newSymbol){
   }
   return changedText
 }
-console.log (changeSymbol("The results are not recorded yet", "t", "w"))
+changeSymbol("The results are not recorded yet", "t", "w")
 
 
 // 7) pattern
